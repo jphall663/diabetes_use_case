@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+
+data/10k_diabetes.csv
+data/diabetes_test_nbr_random.csv
+data/diabetes_test_nbr_random_readmit_0_1.csv
+data/diabetes_train_nbr_random.csv
+data/diabetes_train_nbr_random_readmit_0_1.csv
+data/diabetic_data.csv
+
