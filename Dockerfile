@@ -65,4 +65,4 @@ RUN apt-get update --fix-missing && \
 RUN apt-get -y install graphviz
 
 # Tree Shap
-RUN pip install shap
+RUN pip install -f shap
