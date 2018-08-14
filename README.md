@@ -1,6 +1,6 @@
 # diabetes_use_case
 
-The files in this repository are meant to provide a reproducible example use case for interpretable machine learning techniques applied to a basic health care use case. The [Jupyter notebook herein](Binary-Classification-Readmit.ipynb) will be presented at the [Xavier AI in Healthcare conference](https://www.xavierhealth.org/ai-summit-day2/).
+The files in this repository are meant to provide a reproducible example for interpretable machine learning techniques applied to a basic health care use case. The [Jupyter notebook herein](Binary-Classification-Readmit.ipynb) will be presented at the [Xavier AI in Healthcare conference](https://www.xavierhealth.org/ai-summit-day2/).
 
 The training data for this use case is available [here](https://www.kaggle.com/brandao/diabetes). The data set contains demographic and medical information about many patients. It is used to create a white-box classifier for predicting who will be readmitted to a hospital within 30 days of discharge. This notebook attempts to showcase the use of a complex, but transparent, nonlinear classifier as an alternative to more traditional linear model approaches.
 
