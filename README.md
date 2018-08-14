@@ -57,7 +57,7 @@ From a terminal:
 7. Clone the repository with examples.</br>
 `$ git clone https://github.com/jphall663/diabetes_use_case.git`
 
-8. `$ cd interpretable_machine_learning_with_python`
+8. `$ cd diabetes_use_case`
 
 9. Start the Jupyter notebook server.</br>
 `$ jupyter notebook`
