@@ -4,7 +4,7 @@ The files in this repository are meant to provide a reproducible example for int
 
 The training data for this use case is available [here](https://www.kaggle.com/brandao/diabetes). The data set contains demographic and medical information about many patients. It is used to create a white-box classifier for predicting who will be readmitted to a hospital within 30 days of discharge. This notebook attempts to showcase the use of a complex, but transparent, nonlinear classifier as an alternative to more traditional linear model approaches.
 
-Typically it requires many different methods to properly interpret a nonlinear classifier. Several different types of interpretation and explanation methods are used here including global, local, low-fidelity, and high-fidelity methods including:
+Typically it requires many different methods to properly interpret a nonlinear classifier. Several different types of interpretation and explanation methods are used here including:
 
 * Global and local Shapley variable importance
 * Partial dependence
@@ -28,13 +28,13 @@ The from a terminal run:
 4. Build a docker image from the Dockefile.</br>
 `$ docker build --no-cache anaconda_py35_h2o_xgboost_graphviz_shap`
 
-5. Display docker image IDs. You are probably interested in the most recently created image. </br>
+5. Display docker image IDs. You are probably interested in the most recently created image. You will need it for the command directly below. </br>
 `$ docker images`
 
 6. Start the docker image and the Jupyter notebook server.</br>
 `$ docker run -i -t -p 8888:8888 <image_id> /bin/bash -c "/opt/conda/bin/conda install jupyter -y --quiet && /opt/conda/bin/jupyter notebook --notebook-dir=/diabetes_use_case --ip='*' --port=8888 --no-browser"`</br>
 
-(If you need `root` priviledges to run docker, try this command:`$ sudo docker run -i -t -p 8888:8888 <image_id> /bin/bash -c "/opt/conda/bin/conda install jupyter -y --quiet && /opt/conda/bin/jupyter notebook --notebook-dir=/diabetes_use_case --ip='*' --port=8888 --no-browser --allow-root"`</br>
+(If you need `root` priviledges to run docker, try this command:`sudo docker run -i -t -p 8888:8888 <image_id> /bin/bash -c "/opt/conda/bin/conda install jupyter -y --quiet && /opt/conda/bin/jupyter notebook --notebook-dir=/diabetes_use_case --ip='*' --port=8888 --no-browser --allow-root"`</br>
 
 7. Then navigate to port 8888 on your machine, probably `http://localhost:8888/`.
 
