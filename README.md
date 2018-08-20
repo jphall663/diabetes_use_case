@@ -1,4 +1,4 @@
-# diabetes_use_case
+# Diabetes data use case
 
 The files in this repository are meant to provide a reproducible example for interpretable machine learning techniques applied to a basic health care use case. The [Jupyter notebook herein](Binary-Classification-Readmit.ipynb) will be presented at the [Xavier AI in Healthcare conference](https://www.xavierhealth.org/ai-summit-day2/).
 
