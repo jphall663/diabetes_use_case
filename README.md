@@ -72,13 +72,13 @@ A [Dockerfile](anaconda_py35_h2o_xgboost_graphviz_shap/Dockerfile) is provided t
 The from a terminal run:
 
 2. Create a directory for the Dockerfile.</br>
-`$ mkdir anaconda_py35_h2o_xgboost_graphviz_shap`
+`$ mkdir anaconda_py36_h2o_xgboost_graphviz_shap`
 
 3. Fetch the Dockerfile.</br>
-`$ curl https://raw.githubusercontent.com/jphall663/diabetes_use_case/master/anaconda_py35_h2o_xgboost_graphviz_shap/Dockerfile > anaconda_py35_h2o_xgboost_graphviz_shap/Dockerfile`
+`$ curl https://raw.githubusercontent.com/jphall663/diabetes_use_case/master/anaconda_py36_h2o_xgboost_graphviz_shap/Dockerfile > anaconda_py36_h2o_xgboost_graphviz_shap/Dockerfile`
 
 4. Build a docker image from the Dockefile.</br>
-`$ docker build --no-cache anaconda_py35_h2o_xgboost_graphviz_shap`
+`$ docker build --no-cache anaconda_py36_h2o_xgboost_graphviz_shap`
 
 5. Display docker image IDs. You are probably interested in the most recently created image. You will need it for the command directly below. </br>
 `$ docker images`
