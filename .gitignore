@@ -4,3 +4,4 @@
 *.gv
 *.ipynb_checkpoints/
 *.pyc
+env
